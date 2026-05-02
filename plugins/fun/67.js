@@ -25,7 +25,7 @@ handler.all = async function (m) {
     await this.sendMessage(m.chat, { sticker: buffer }, { quoted: m })
 }
 
-handler.command = /^$/
+handler.command = /^67$/
 handler.help = []
 
 export default handler
