@@ -2,7 +2,7 @@
 let handler = async (m, { conn, command }) => {
     const userId = m.sender;
     const groupId = m.chat;
-    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity';
+    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Endy';
     
     const isBan = /^(banchat|bangp|banearchat|bloquearchat|bloqueargrupo|banirchat|chatblock|chatban|chatgesperrt|禁用聊天|забанитьчат|حظرالمحادثة|चैटबैन)$/i.test(command);
     
