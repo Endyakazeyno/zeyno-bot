@@ -9,22 +9,22 @@ import moment from 'moment-timezone';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.author = '𝐌𝐝';
-global.vs = '11';
-global.collab = 'Demo';
+global.nomebot = 'ɀҽყɳσ Ⴆσƚ';
+global.packname = 'ɀҽყɳσ Ⴆσƚ';
+global.author = 'Ɇ₦ĐɎ';
+global.vs = '5';
+global.collab = 'Soccer';
 global.wm = global.nomebot;
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';
 
 
 global.owner = [
-  ['393773842461', '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲', true],
-  ['xxxxxxxxxx'], // Numero, Nome, True (attenzione alla sintassi deve essere identico a sopra!)
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx'],
-  ['xxxxxxxxxx']
+  ['393501989497', 'Endy', true],
+  ['447449205584', 'endy', true],
+  ['212614898801', 'bot', true],
+  ['3197010505891', 'zey', true],
+  ['212693877842', 'medalis', true],
+  ['77787623522', 'sgozzare', true],
 ];
 
 
