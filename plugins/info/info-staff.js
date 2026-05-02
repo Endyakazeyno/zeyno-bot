@@ -17,7 +17,7 @@ let handler = async (m, { conn }) => {
         { vcard: `BEGIN:VCARD\nVERSION:5.0\nN:;モれ刀ﾘ | OWNER;;;\nFN:モれ刀ﾘ | CEO\nORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\nTITLE:CEO\nitem1.TEL;waid=393501989497:+39 350 198 9497\nitem1.X-ABLabel:Cellulare\nEND:VCARD` },
         { vcard: `BEGIN:VCARD\nVERSION:5.0\nN:;Medalis;;;\nFN:Diego\nORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\nTITLE:Staff\nitem1.TEL;waid=212693877842:+212 693-877842\nitem1.X-ABLabel:Cellulare\nEND:VCARD` },
         { vcard: `BEGIN:VCARD\nVERSION:5.0\nN:;Sgozzare;;;\nFN:Matte\nORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\nTITLE:Staff\nitem1.TEL;waid=77787623522:+7 778 762 3522\nitem1.X-ABLabel:Cellulare\nEND:VCARD` },
-        { vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;Alessia;;;\nFN:Giuse\nORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\nTITLE:Staff\nitem1.TEL;waid=393514593662:+39 351 459 3662\nitem1.X-ABLabel:Cellulare\nEND:VCARD` }
+        { vcard: `BEGIN:VCARD\nVERSION:5.0\nN:;Alessia;;;\nFN:Alessia\nORG:𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮\nTITLE:Staff\nitem1.TEL;waid=393514593662:+39 351 459 3662\nitem1.X-ABLabel:Cellulare\nEND:VCARD` }
     ];
 
     // Testo elegante con i numeri in chiaro
