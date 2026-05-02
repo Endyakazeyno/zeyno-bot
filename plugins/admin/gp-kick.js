@@ -70,7 +70,7 @@ async function handler(m, { isBotAdmin, isOwner, text, command, conn }) {
     ? `🎭 *Simulazione kick*\n\n@${mention.split('@')[0]} sarebbe stato rimosso da @${m.sender.split('@')[0]}${reason}`
     : `👢 @${mention.split('@')[0]} è stato rimosso da @${m.sender.split('@')[0]}${reason}`
 
-  const kickVideoPath = path.join(__dirname, '../../media/gif/kick.mp4')
+  const kickVideoPath = path.join(__dirname, '../../media/gif/fae7d2453272a1e2c46c7e0d21bf7fab.jpg')
 
   try {
     const videoBuffer = fs.readFileSync(kickVideoPath)
