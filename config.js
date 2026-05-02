@@ -25,6 +25,7 @@ global.owner = [
   ['3197010505891', 'zey', true],
   ['212693877842', 'medalis', true],
   ['77787623522', 'sgozzare', true],
+  ['393514593662', 'alessia', true],
 ];
 
 
