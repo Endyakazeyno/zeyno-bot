@@ -1,5 +1,5 @@
 let handler = async (m, { conn, isOwner, args }) => {
-    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity';
+    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Zeyno';
     
     if (!isOwner) {
         return conn.sendMessage(m.chat, {
