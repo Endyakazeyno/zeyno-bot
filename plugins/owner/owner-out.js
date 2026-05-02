@@ -2,7 +2,7 @@
 let handler = async (m, { conn, text, command }) => {
   const userId = m.sender;
   const groupId = m.chat;
-  const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity';
+  const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Zeyno';
   
   const isOwner = [...global.owner.map(([number]) => number), ...global.mods].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender);
   
@@ -40,7 +40,7 @@ let handler = async (m, { conn, text, command }) => {
     });
     await conn.groupLeave(id);
   } catch (e) {
-    console.error('Errore durante l\'uscita:', e);
+    console.error('errore durante l\'uscita:', e);
     await conn.sendMessage(m.chat, {
       text: global.t('leaveError', userId, groupId),
       contextInfo: {
