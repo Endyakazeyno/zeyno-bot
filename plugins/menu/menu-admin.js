@@ -25,7 +25,7 @@ const handler = async (message, { conn, usedPrefix, command }) => {
             { buttonId: `${usedPrefix}menuowner`, buttonText: { displayText: ownerMenuText }, type: 1 },
             { buttonId: `${usedPrefix}menusicurezza`, buttonText: { displayText: securityMenuText }, type: 1 },
             { buttonId: `${usedPrefix}menugruppo`, buttonText: { displayText: groupMenuText }, type: 1 },
-            { buttonId: `${usedPrefix}menumod`, buttonText: { displayText: '🛡️ Menu Mod' }, type: 1 },
+            { buttonId: `${usedPrefix}menumod`, buttonText: { displayText: '🛡️ Menu Admin' }, type: 1 },
         ],
         viewOnce: true,
         headerType: 4,
@@ -65,26 +65,26 @@ function generateMenuText(prefix, userId, groupId) {
     const menuTitle = global.t('adminMenuTitle', userId, groupId);
 
     const commandList = `
-• 👑 *${global.t('promoteCommand', userId, groupId)}*
-• 👑 *${global.t('demoteCommand', userId, groupId)}*
-• 👑 *${global.t('warnCommands', userId, groupId)}*
-• 👑 *${global.t('muteCommands', userId, groupId)}*
-• 👑 *${global.t('setNameCommand', userId, groupId)}*
-• 👑 *${global.t('hidetagCommand', userId, groupId)}*
-• 👑 *${global.t('tagallCommand', userId, groupId)}*
-• 👑 *${global.t('kickCommand', userId, groupId)}*
-• 👑 *${global.t('adminsCommand', userId, groupId)}*
-• 👑 *${global.t('openCloseCommand', userId, groupId)}*
-• 👑 *${global.t('setWelcomeCommand', userId, groupId)}*
-• 👑 *${global.t('setByeCommand', userId, groupId)}*
-• 👑 *${global.t('inactiveCommand', userId, groupId)}*
-• 👑 *${global.t('listNumCommand', userId, groupId)}*
-• 👑 *${global.t('cleanupCommand', userId, groupId)}*
-• 👑 *${global.t('rulesCommand', userId, groupId)}*
-• 👑 *${global.t('listWarnCommand', userId, groupId)}*
-• 👑 *${global.t('linkCommand', userId, groupId)}*
-• 👑 *${global.t('linkQrCommand', userId, groupId)}*
-• 👑 *${global.t('requestsCommand', userId, groupId)}*
+• 🛡️ *${global.t('promoteCommand', userId, groupId)}*
+• 🛡️ *${global.t('demoteCommand', userId, groupId)}*
+• 🛡️ *${global.t('warnCommands', userId, groupId)}*
+• 🛡️ *${global.t('muteCommands', userId, groupId)}*
+• 🛡️ *${global.t('setNameCommand', userId, groupId)}*
+• 🛡️ *${global.t('hidetagCommand', userId, groupId)}*
+• 🛡️ *${global.t('tagallCommand', userId, groupId)}*
+• 🛡️ *${global.t('kickCommand', userId, groupId)}*
+• 🛡️ *${global.t('adminsCommand', userId, groupId)}*
+• 🛡️ *${global.t('openCloseCommand', userId, groupId)}*
+• 🛡️ *${global.t('setWelcomeCommand', userId, groupId)}*
+• 🛡️ *${global.t('setByeCommand', userId, groupId)}*
+• 🛡️ *${global.t('inactiveCommand', userId, groupId)}*
+• 🛡️ *${global.t('listNumCommand', userId, groupId)}*
+• 🛡️ *${global.t('cleanupCommand', userId, groupId)}*
+• 🛡️ *${global.t('rulesCommand', userId, groupId)}*
+• 🛡️ *${global.t('listWarnCommand', userId, groupId)}*
+• 🛡️ *${global.t('linkCommand', userId, groupId)}*
+• 🛡️ *${global.t('linkQrCommand', userId, groupId)}*
+• 🛡️ *${global.t('requestsCommand', userId, groupId)}*
     `.trim();
 
     return `
@@ -92,6 +92,6 @@ function generateMenuText(prefix, userId, groupId) {
 
 ${commandList.split('\n').map(line => `୧ ${line.trim()}`).join('\n')}
 ꒷꒦ ✦ ୧・︶ : ︶ ꒷꒦ ‧₊ ୧
-> © ${global.t('poweredBy', userId, groupId)} 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
+> © ${global.t('poweredBy', userId, groupId)} モれ刀ﾘ
 `.trim();
 }
