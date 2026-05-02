@@ -4,7 +4,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const handler = async (m, { conn }) => {
     const userId = m.sender;
     const groupId = m.chat;
-    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'ChatUnity';
+    const nomeDelBot = conn.user?.name || global.db?.data?.nomedelbot || 'Zeyno';
     
     try {
         const { key } = await conn.sendMessage(m.chat, {
@@ -23,7 +23,7 @@ const handler = async (m, { conn }) => {
         await delay(1000);
         
         await conn.sendMessage(m.chat, {
-            text: '🚀🚀🚀🚀',
+            text: '🔥🔥🥺',
             edit: key
         });
         
